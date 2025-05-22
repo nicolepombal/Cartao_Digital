@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #ebf7fd;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  text-align: center;
+  max-width: 380px;
+  width: 100%;
+}
+.card img {
+  width: 120px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+.name {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.profession {
+  color: #555;
+  margin-bottom: 20px;
+}
+.link {
+  display: block;
+  background: #0077b5; /* LinkedIn azul */
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 0;
+  border-radius: 8px;
+  margin: 8px 0;
+  transition: background 0.3s;
+}
+.link.instagram {
+  background: #E1306C;
+}
+.link.email {
+  background: #333;
+}
+.link:hover {
+  opacity: 0.8;
+}
